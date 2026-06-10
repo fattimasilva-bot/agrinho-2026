@@ -1,1 +1,77 @@
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1fff1;
+  color: #2e4d2e;
+}
+
+header.hero {
+  height: 80vh;
+  background: url("https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+}
+
+.bloco {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bloco img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.reverso {
+  flex-direction: row-reverse;
+}
+
+.quiz, .animacao {
+  text-align: center;
+}
+
+#quiz {
+  margin-top: 20px;
+  border: 2px solid #4caf50;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+#respostas button {
+  display: block;
+  margin: 5px auto;
+  padding: 10px 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#respostas button:hover {
+  background: #2e7d32;
+}
+
+@media (max-width: 768px) {
+  .bloco {
+    flex-direction: column;
+    text-align: center;
+  }
+  .bloco img {
+    width: 100%;
+  }
+}
