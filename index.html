@@ -1,6 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeeSafe Agro - Proteção das Abelhas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.min.js"></script>
+</head>
 <body>
-<h1>Teste</h1>
+  <header class="hero">
+    <div class="overlay">
+      <h1>BeeSafe Agro 🐝</h1>
+      <p>Protegendo abelhas e fortalecendo a agricultura sustentável</p>
+    </div>
+  </header>
+
+  <section class="bloco">
+    <div class="texto">
+      <h2>🌍 O Problema</h2>
+      <p>
+        O uso inadequado de defensivos agrícolas em horários de atividade das abelhas
+        causa a morte de polinizadores essenciais, prejudicando a polinização, a biodiversidade e a produção de alimentos.
+      </p>
+    </div>
+    <img src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg" alt="abelha polinizando">
+  </section>
+
+  <section class="bloco reverso">
+    <div class="texto">
+      <h2>🐝 Importância das Abelhas</h2>
+      <p>
+        As abelhas realizam a polinização de grande parte das plantas cultivadas,
+        sendo fundamentais para a segurança alimentar e sustentabilidade ambiental.
+      </p>
+    </div>
+    <img src="https://images.pexels.com/photos/45911/bee-wasp-insect-pollination-45911.jpeg" alt="abelhas">
+  </section>
+
+  <section class="bloco">
+    <div class="texto">
+      <h2>💡 Solução Tecnológica</h2>
+      <p>
+        O BeeSafe Agro permite simular horários seguros para a aplicação de defensivos,
+        alertando produtores e protegendo as abelhas.
+      </p>
+    </div>
+    <img src="https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg" alt="tecnologia no campo">
+  </section>
+
+  <section class="bloco quiz">
+    <h2>📝 Quiz sobre Proteção de Abelhas</h2>
+    <p>Teste seus conhecimentos sobre práticas sustentáveis!</p>
+    <div id="quiz">
+      <div id="pergunta"></div>
+      <div id="respostas"></div>
+      <button id="nextBtn">Próxima</button>
+      <p id="resultado"></p>
+    </div>
+  </section>
+
+  <section class="bloco animacao">
+    <h2>🎮 Simulador de Risco</h2>
+    <p>Use ↑ ↓ para alterar o horário e ver o risco para as abelhas</p>
+    <div id="p5Canvas"></div>
+    <p id="horarioText"></p>
+    <p id="riscoText"></p>
+  </section>
+
+  <section class="bloco">
+    <h2>📚 Conclusão</h2>
+    <p>
+      Equilibrar produtividade agrícola e preservação ambiental é possível
+      usando tecnologia, conscientização e boas práticas no campo.
+    </p>
+  </section>
+
+  <section class="bloco">
+    <h2>🔎 Referências</h2>
+    <ul>
+      <li>FAO - Organização das Nações Unidas para Agricultura</li>
+      <li>Embrapa</li>
+      <li>WWF Brasil</li>
+      <li>Portal da Apicultura Sustentável</li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
