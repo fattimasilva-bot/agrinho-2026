@@ -1,6 +1,4 @@
 # agrinho-2026
-eeGuard
-
 O eeGuard é uma aplicação web educativa desenvolvida com o objetivo de conscientizar sobre a importância da preservação das abelhas diante do uso inadequado de defensivos agrícolas. A plataforma utiliza tecnologia, informação e simulações interativas para promover a sustentabilidade no campo e incentivar práticas agrícolas responsáveis.
 
 Sobre o projeto
